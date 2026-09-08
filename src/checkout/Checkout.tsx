@@ -28,7 +28,7 @@ interface BookingRoomDetails {
 }
 
 function Checkout() {
-  const { cart, removeFromCart } = useCart();
+  const { cart} = useCart();
 
   const location = useLocation();
   const state = location.state as LocationState | null;
