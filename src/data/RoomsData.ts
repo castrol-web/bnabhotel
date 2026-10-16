@@ -5,6 +5,14 @@ import rm5front from '../assets/roompics/room5/rm5front.jpeg';
 import rm6front from '../assets/roompics/room6/rm6front.jpeg';
 import rm7front from '../assets/roompics/room7/rm7front.jpeg';
 import rm8front from '../assets/roompics/room8/rm8front.jpeg';
+import rm1a from "../assets/roompics/room1/rm1a.jpeg";
+import rm1b from "../assets/roompics/room1/rm1b.jpeg";
+import rm1c from "../assets/roompics/room1/rm1c.jpeg";
+import rm1d from "../assets/roompics/room1/rm1d.jpeg";
+import rm1e from "../assets/roompics/room1/rm1e.jpeg";
+import rm1f from "../assets/roompics/room1/rm1f.jpeg";
+import rm1g from "../assets/roompics/room1/rm1g.jpeg";
+import rm1h from "../assets/roompics/room1/rm1h.jpeg";
 export const rooms = [
     {
         "_id":"686a3b71f6aa22c8fd625b08",
@@ -71,15 +79,14 @@ export const rooms = [
             }
         ],
         "pictures": [
-            "21c00bca47c648eec736b9a0aee546278245f9147591fad2f39bf7742c742c72",
-            "28654afb613d39b76c1382cdac158c45ca0116e0acb327eb8649a5fdb9f151de",
-            "f741bdd260fa32c5f3cec87643d5b6806fa66028459ffecc54b9ac7966a91654",
-            "34775ec2981ee3a376997af52af77fd7ae32881b428c18db4adb7527e5f1c8bd",
-            "d6df77ed0ffbf961497fb406bdb8a022b902de8c68992dbe50d1131073456b9f",
-            "d102bfcef70c65078854b0feeed1126131ade5ef17805897ed6c907448370e28",
-            "400f2d8fe8b0da0d3416a56b120d900f5b019b6b7743076f8093227cdb556d5b",
-            "38af32ae7285b80ba6976cb23ae2a1c8e53a97a5c99a7ca45d0724778fe76df9",
-            "a45253143e8943d4d0a657187eb78e366b84e645014e61f6322500a6522a804f"
+            rm1a,
+            rm1b,
+            rm1c,
+            rm1d,
+            rm1e,
+            rm1f,
+            rm1g,
+            rm1h
         ],
         "frontViewPicture": rm1front,
         "status": "available",
