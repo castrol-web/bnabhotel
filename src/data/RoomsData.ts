@@ -1,3 +1,10 @@
+import rm1front from '../assets/roompics/room1/rm1front.jpeg';
+import rm2front from '../assets/roompics/room2/rm2front.jpeg';
+import rm4front from '../assets/roompics/room4/rm4front.jpeg';
+import rm5front from '../assets/roompics/room5/rm5front.jpeg';
+import rm6front from '../assets/roompics/room6/rm6front.jpeg';
+import rm7front from '../assets/roompics/room7/rm7front.jpeg';
+import rm8front from '../assets/roompics/room8/rm8front.jpeg';
 export const rooms = [
     {
         "_id":"686a3b71f6aa22c8fd625b08",
@@ -74,7 +81,7 @@ export const rooms = [
             "38af32ae7285b80ba6976cb23ae2a1c8e53a97a5c99a7ca45d0724778fe76df9",
             "a45253143e8943d4d0a657187eb78e366b84e645014e61f6322500a6522a804f"
         ],
-        "frontViewPicture": "1e08a00723c895397dd4df925988322410c1474aad71ab8018848c91bc9fb0b2",
+        "frontViewPicture": rm1front,
         "status": "available",
         "starRating": 0,
         "createdAt": {
@@ -156,7 +163,7 @@ export const rooms = [
     "bb1f752c58254b35315c03cff378efb3b6aaf07c76b141056bbdd8916ee3434f",
     "0184f286ac4036c25e7b33c972743b0e3651b773494a4c20d839b8baa107bd52"
   ],
-  "frontViewPicture": "fc760c07ad5f4ffd440ea3659c64c06cbe9e4260f62cf8c8d7427f8c165c4693",
+  "frontViewPicture": rm2front,
   "status": "available",
   "starRating": 0,
   "createdAt": {
@@ -264,7 +271,7 @@ export const rooms = [
     "a377b6a1e7db023f5b0d265aaba29f2b3c0bd42e66e5e61fdd578a01583b2e1a",
     "da8985ec255828b26a18e7c9ec57c661e1140285d3b1d87e8da8e833ea7d069c"
   ],
-  "frontViewPicture": "a3c308b259d6bbc1139a54d89ef5d8d1cb6dabb3b12f941917cf9164d9c8d2a3",
+  "frontViewPicture": rm4front,
   "status": "available",
   "starRating": 0,
   "createdAt": {
@@ -373,7 +380,7 @@ export const rooms = [
     "6790d3ea877403d50c8b6774d5b9bf21baabbd5f0a47eb1cbe8a7cad3e45e070",
     "17b7f9a448da618ae6cff88fba23173df9362f5f1c19338eb8b10671824c6fa9"
   ],
-  "frontViewPicture": "c47c641d4f957d66605a06dd60407ad97ef7d9d78da7143381a1fdf7b1854b3d",
+  "frontViewPicture": rm5front,
   "status": "available",
   "starRating": 0,
   "createdAt": {
@@ -430,7 +437,19 @@ export const rooms = [
       "_id": {
         "$oid": "6921be4944a0136c983e2959"
       }
-    }
+    },
+    {
+      "roomType": "Apartment",
+      "price": 140,
+      "numberOfBeds": 3,
+      "bedType": [
+        "Queen"
+      ],
+      "maxPeople": 6,
+      "_id": {
+        "$oid": "6921be4944a0136c983e2958"
+      }
+    },
   ],
   "pictures": [
     "fad8c2917f5ea6ca1cd847b11960e7c473ef55256f9dcff0a30fe80b5a8f416f",
@@ -443,7 +462,7 @@ export const rooms = [
     "18e4237cf004b995780073059f3dbf5773a69838099c5b4bd9bc6c3d9a78352c",
     "b7e58da3ec134a80d8bd512667403690e0f108d12d43c5a646a5da6111daade8"
   ],
-  "frontViewPicture": "fe889a9994c1c1552a490c3526c0647b0f2cdfce937de5b5f9adfae637965e5f",
+  "frontViewPicture": rm6front,
   "status": "available",
   "starRating": 0,
   "createdAt": {
@@ -504,7 +523,19 @@ export const rooms = [
       "_id": {
         "$oid": "6921c03544a0136c983e29a4"
       }
-    }
+    },
+    {
+      "roomType": "Apartment",
+      "price": 140,
+      "numberOfBeds": 3,
+      "bedType": [
+        "Queen","King"
+      ],
+      "maxPeople": 6,
+      "_id": {
+        "$oid": "6921be4944a0136c983e2958"
+      }
+    },
   ],
   "pictures": [
     "c98e7d471cc3b0d42959bd49156b9d7dbf11e186c3cfa398d1711cf039e9d808",
@@ -518,7 +549,7 @@ export const rooms = [
     "84c6cc0d99af779519a4502ce30907ae77b4ce04cceac3f1a4b14dd9cbe20a25",
     "4579025eb3deebd4e8bb719b09a61835ba5ad2d270c674ac361b60519437c8d0"
   ],
-  "frontViewPicture": "afa75e405c5f9e1b42c2b19edad1a296ee83e6e4acd39b295ca2592a1a705ecc",
+  "frontViewPicture": rm7front,
   "status": "available",
   "starRating": 0,
   "createdAt": {
@@ -601,7 +632,90 @@ export const rooms = [
     "014e56c09b7d801369f5dfd56508d41e68ac8e9056f3dada53d67455d0de5535",
     "1183ebca709e5046e74b6e2cbb6dcaa94486bb687d5793df3cbd1b932fd5a746"
   ],
-  "frontViewPicture": "dd802fdf5ce1eaa91f62697a73a606eadd85738373fd106c68cb1bd1caf0dc60",
+  "frontViewPicture": rm8front,
+  "status": "available",
+  "starRating": 0,
+  "createdAt": {
+    "$date": "2025-07-06T10:04:43.252Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-22T13:54:04.751Z"
+  },
+  "__v": 4
+},
+{
+  "_id": "686a4a3bf6aa22c8fd625bd9",
+  "title": "Apartments",
+  "roomNumber": "apartments",
+  "description": "great street and backyard view,located in downstairs.",
+  "amenities": [
+    "toiletries",
+    "bedside table",
+    "Room 20m²",
+    "Toothbrush",
+    "Shampoo",
+    "Slippers",
+    "Single Bed",
+    "Smart TV",
+    "Room Service",
+    "Cooling fun",
+    "Big Wardrobe",
+    "Breakfast",
+    "Cable TV",
+    "Towels",
+    "Storage",
+    "Bath tab"
+  ],
+  "configurations": [
+    {
+      "roomType": "Double",
+      "price": 56,
+      "numberOfBeds": 1,
+      "bedType": [
+        "King"
+      ],
+      "maxPeople": 2,
+      "_id": {
+        "$oid": "6921c07c44a0136c983e29c1"
+      }
+    },
+    {
+      "roomType": "Single",
+      "price": 51,
+      "numberOfBeds": 1,
+      "bedType": [
+        "King"
+      ],
+      "maxPeople": 1,
+      "_id": {
+        "$oid": "6921c07c44a0136c983e29c2"
+      }
+    },
+    {
+      "roomType": "Twin",
+      "price": 56,
+      "numberOfBeds": 2,
+      "bedType": [
+        "Single"
+      ],
+      "maxPeople": 2,
+      "_id": {
+        "$oid": "6921c07c44a0136c983e29c3"
+      }
+    }
+  ],
+  "pictures": [
+    "835457baa6e5bc402bb3cb43dc2eb739cdcc43c3587ab817325ebdb5db5e8b46",
+    "f6630b7f066bc3932dcaf10db3049690c8a47dd8392786396787332ad985bd3c",
+    "1fa2aa6ea8bb4d67f743ffb7161a2f96420806728c52901023943dfb2bb58d78",
+    "8be442ce9f3e9f0476b42dce31e96dfdb0efc2d8d5c799a487cdeb94e220442e",
+    "f2968286c706c2e84abdb4b6883bd07a40da3b2a89030c26da9ade81e7672858",
+    "44749f5d852be306c023263998e148e7c7e5fb1e22a255e39a22a8fccfbc67df",
+    "657cf3c6f92c2a513f4c6b971abca024f63aed0203504766e30dd7e4ac08d4e1",
+    "014e56c09b7d801369f5dfd56508d41e68ac8e9056f3dada53d67455d0de5535",
+    "1183ebca709e5046e74b6e2cbb6dcaa94486bb687d5793df3cbd1b932fd5a746"
+  ],
+  "frontViewPicture": rm8front,
   "status": "available",
   "starRating": 0,
   "createdAt": {
