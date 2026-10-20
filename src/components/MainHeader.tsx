@@ -1,16 +1,16 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import bnb1 from "../assets/bnb1.jpg";
-import bnbpic from "../assets/bnbpic.jpg";
-import bnb2 from "../assets/bnb2.jpg";
-import bnb4 from "../assets/bnb4.jpeg";
+import swimming from "../assets/swimming.jpeg";
+import outside from "../assets/outside.jpeg";
+import tent from "../assets/tent.jpeg";
+import light from "../assets/light.jpeg";
 import { useTranslation } from "react-i18next";
 
 function MainHeader() {
   const [index, setIndex] = useState(0);
   const { t } = useTranslation();
 
-  const images = [bnb4, bnb1, bnbpic, bnb2];
+  const images = [light, swimming, outside, tent];
 
   const content = [
     {

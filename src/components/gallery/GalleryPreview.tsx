@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import reception from "../../assets/reception.jpeg";
-import entrance from "../../assets/entrance.jpg";
+import entrance from "../../assets/entrance.jpeg";
 import parking from "../../assets/parking.jpeg";
-import room2 from "../../assets/room2.jpg";
+import swimming from "../../assets/swimming.jpeg";
 
 
 const images = [
   parking,
   reception,
   entrance,
-  room2
+  swimming
 ];
 
 const GalleryPreview = () => {

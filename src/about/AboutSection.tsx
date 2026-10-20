@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FaCheckCircle } from "react-icons/fa";
-import home1 from "../assets/home1.jpg";
-import home2 from "../assets/home2.jpg";
+import swimming2 from "../assets/swimming2.jpeg";
+import parking from "../assets/parking.jpeg";
 import bart from "../assets/bart.jpeg";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -13,15 +13,15 @@ const AboutSection = () => {
       {/* Left - Images */}
       <div className="relative w-full lg:w-1/2">
         <motion.img
-          src={home1}
+          src={swimming2}
           alt="bnb thumbnails"
-          className="rounded-2xl w-full shadow-xl"
+          className="rounded-2xl w-full lg:w-110 lg:h-140 shadow-xl"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         />
         <motion.img
-          src={home2}
+          src={parking}
           alt="bnb inside pictures"
           className="absolute bottom-[-40px] left-[30px] w-1/2 rounded-xl shadow-lg border-4 border-[#be7f2c]"
           initial={{ opacity: 0, y: 50 }}
