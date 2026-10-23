@@ -102,6 +102,18 @@ export const rooms = [
         "_id": {
           "$oid": "6921ba8144a0136c983e285a"
         }
+      },
+         {
+        "roomType": "Triple",
+        "price": 120,
+        "numberOfBeds": 3,
+        "bedType": [
+          "King"
+        ],
+        "maxPeople": 3,
+        "_id": {
+          "$oid": "6921ba8144a0136c983e285a"
+        }
       }
     ],
     "pictures": [
@@ -189,7 +201,19 @@ export const rooms = [
         "_id": {
           "$oid": "6921bb4044a0136c983e2879"
         }
-      }
+      },
+            {
+        "roomType": "Triple",
+        "price": 120,
+        "numberOfBeds": 3,
+        "bedType": [
+          "King"
+        ],
+        "maxPeople": 3,
+        "_id": {
+          "$oid": "6921bb4044a0136c983e2877"
+        }
+      },
     ],
     "pictures": [
       rm2a, rm2b, rm2c, rm2d
