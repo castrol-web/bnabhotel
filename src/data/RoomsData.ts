@@ -41,7 +41,7 @@ export const rooms = [
     "_id": "686a3b71f6aa22c8fd625b08",
     "title": "Room 1",
     "roomNumber": "1",
-    "description": "its a big room, it has private sitting room and street view",
+    "description": "its a big room,it has private sitting room and street view",
     "amenities": [
       "Breakfast",
       "Double Beds",
@@ -61,12 +61,13 @@ export const rooms = [
       "Big Wardrobe",
       "toiletries",
       "bedside table",
-      "sitting room"
+      "sitting room",
+      "mini fridge"
     ],
     "configurations": [
       {
         "roomType": "Double",
-        "price": 56,
+        "price": 80,
         "numberOfBeds": 1,
         "bedType": [
           "King"
@@ -78,7 +79,7 @@ export const rooms = [
       },
       {
         "roomType": "Twin",
-        "price": 56,
+        "price": 80,
         "numberOfBeds": 2,
         "bedType": [
           "Single"
@@ -90,7 +91,7 @@ export const rooms = [
       },
       {
         "roomType": "Single",
-        "price": 51,
+        "price": 80,
         "numberOfBeds": 1,
         "bedType": [
           "King"
@@ -145,12 +146,13 @@ export const rooms = [
       "Big Wardrobe",
       "toiletries",
       "bedside table",
-      "sitting room"
+      "sitting room",
+      "mini fridge"
     ],
     "configurations": [
       {
         "roomType": "Double",
-        "price": 56,
+        "price": 80,
         "numberOfBeds": 1,
         "bedType": [
           "King"
@@ -162,7 +164,7 @@ export const rooms = [
       },
       {
         "roomType": "Twin",
-        "price": 56,
+        "price": 80,
         "numberOfBeds": 2,
         "bedType": [
           "Single"
@@ -174,7 +176,7 @@ export const rooms = [
       },
       {
         "roomType": "Single",
-        "price": 51,
+        "price": 80,
         "numberOfBeds": 1,
         "bedType": [
           "King"
@@ -222,12 +224,13 @@ export const rooms = [
       "Storage",
       "AC",
       "Room Service",
-      "Smart TV"
+      "Smart TV",
+      "mini fridge"
     ],
     "configurations": [
       {
         "roomType": "Double",
-        "price": 56,
+        "price": 80,
         "numberOfBeds": 1,
         "bedType": [
           "King"
@@ -239,7 +242,7 @@ export const rooms = [
       },
       {
         "roomType": "Triple",
-        "price": 84,
+        "price": 120,
         "numberOfBeds": 3,
         "bedType": [
           "Single"
@@ -251,7 +254,7 @@ export const rooms = [
       },
       {
         "roomType": "Family",
-        "price": 84,
+        "price": 120,
         "numberOfBeds": 2,
         "bedType": [
           "Single",
@@ -264,7 +267,7 @@ export const rooms = [
       },
       {
         "roomType": "Single",
-        "price": 51,
+        "price": 80,
         "numberOfBeds": 1,
         "bedType": [
           "King"
@@ -276,7 +279,7 @@ export const rooms = [
       },
       {
         "roomType": "Twin",
-        "price": 56,
+        "price": 80,
         "numberOfBeds": 2,
         "bedType": [
           "Single"
@@ -324,12 +327,13 @@ export const rooms = [
       "Cable TV",
       "Shampoo",
       "toiletries",
-      "bedside table"
+      "bedside table",
+      "mini fridge"
     ],
     "configurations": [
       {
         "roomType": "Double",
-        "price": 56,
+        "price": 80,
         "numberOfBeds": 1,
         "bedType": [
           "King"
@@ -341,7 +345,7 @@ export const rooms = [
       },
       {
         "roomType": "Triple",
-        "price": 84,
+        "price": 80,
         "numberOfBeds": 3,
         "bedType": [
           "Single"
@@ -353,7 +357,7 @@ export const rooms = [
       },
       {
         "roomType": "Family",
-        "price": 84,
+        "price": 120,
         "numberOfBeds": 2,
         "bedType": [
           "Single",
@@ -366,7 +370,7 @@ export const rooms = [
       },
       {
         "roomType": "Single",
-        "price": 51,
+        "price": 80,
         "numberOfBeds": 1,
         "bedType": [
           "King"
@@ -378,7 +382,7 @@ export const rooms = [
       },
       {
         "roomType": "Twin",
-        "price": 56,
+        "price": 80,
         "numberOfBeds": 2,
         "bedType": [
           "Single"
@@ -423,12 +427,13 @@ export const rooms = [
       "Room 19m²",
       "toiletries",
       "bedside table",
-      "sitting room"
+      "sitting room",
+      "AC",
     ],
     "configurations": [
       {
         "roomType": "Small Double",
-        "price": 47,
+        "price": 70,
         "numberOfBeds": 1,
         "bedType": [
           "Queen"
@@ -440,7 +445,7 @@ export const rooms = [
       },
       {
         "roomType": "Single",
-        "price": 40,
+        "price": 60,
         "numberOfBeds": 1,
         "bedType": [
           "Queen"
@@ -501,12 +506,13 @@ export const rooms = [
       "bedsite table",
       "toiletries",
       "bedside table",
-      "sitting room"
+      "sitting room",
+      "AC",
     ],
     "configurations": [
       {
         "roomType": "Small Double",
-        "price": 47,
+        "price": 70,
         "numberOfBeds": 1,
         "bedType": [
           "Queen"
@@ -518,7 +524,7 @@ export const rooms = [
       },
       {
         "roomType": "Single",
-        "price": 40,
+        "price": 60,
         "numberOfBeds": 1,
         "bedType": [
           "Queen"
@@ -576,12 +582,13 @@ export const rooms = [
       "Cable TV",
       "Towels",
       "Storage",
-      "Bath tab"
+      "Bath tab",
+      "AC",
     ],
     "configurations": [
       {
         "roomType": "Double",
-        "price": 56,
+        "price": 70,
         "numberOfBeds": 1,
         "bedType": [
           "King"
@@ -593,7 +600,7 @@ export const rooms = [
       },
       {
         "roomType": "Single",
-        "price": 51,
+        "price": 60,
         "numberOfBeds": 1,
         "bedType": [
           "King"
@@ -601,18 +608,6 @@ export const rooms = [
         "maxPeople": 1,
         "_id": {
           "$oid": "6921c07c44a0136c983e29c2"
-        }
-      },
-      {
-        "roomType": "Twin",
-        "price": 56,
-        "numberOfBeds": 2,
-        "bedType": [
-          "Single"
-        ],
-        "maxPeople": 2,
-        "_id": {
-          "$oid": "6921c07c44a0136c983e29c3"
         }
       }
     ],
@@ -655,41 +650,17 @@ export const rooms = [
     ],
     "configurations": [
       {
-        "roomType": "Double",
-        "price": 56,
-        "numberOfBeds": 1,
+        "roomType": "2 Rooms Apartment",
+        "price": 180,
+        "numberOfBeds": 2,
         "bedType": [
-          "King"
+          "King","queen"
         ],
-        "maxPeople": 2,
+        "maxPeople": 6,
         "_id": {
           "$oid": "6921c07c44a0136c983e29c1"
         }
       },
-      {
-        "roomType": "Single",
-        "price": 51,
-        "numberOfBeds": 1,
-        "bedType": [
-          "King"
-        ],
-        "maxPeople": 1,
-        "_id": {
-          "$oid": "6921c07c44a0136c983e29c2"
-        }
-      },
-      {
-        "roomType": "Twin",
-        "price": 56,
-        "numberOfBeds": 2,
-        "bedType": [
-          "Single"
-        ],
-        "maxPeople": 2,
-        "_id": {
-          "$oid": "6921c07c44a0136c983e29c3"
-        }
-      }
     ],
     "pictures": [
       apartment1, apartment2, apartment3

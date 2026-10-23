@@ -204,9 +204,9 @@ const Rooms = () => {
                   {(selectedConfig.roomType?.toUpperCase() ||
                     t("ROOM")) + " "}
 
-                  <span className="ml-4 font-semibold">
-                    {index + 1}
-                  </span>
+                  {/*<span className="ml-4 font-semibold">
+                  {index + 1}
+                </span>*/}
                 </p>
               </motion.div>
 
@@ -322,13 +322,12 @@ const Rooms = () => {
                   <p>
                     {t("Status")}:{" "}
                     <span
-                      className={`font-medium ${
-                        room.status === "available"
+                      className={`font-medium ${room.status === "available"
                           ? "text-green-400"
                           : room.status === "booked"
-                          ? "text-orange-400"
-                          : "text-red-400"
-                      }`}
+                            ? "text-orange-400"
+                            : "text-red-400"
+                        }`}
                     >
                       {t(room.status)}
                     </span>
@@ -356,7 +355,7 @@ const Rooms = () => {
                       )}
 
                       {selectedConfig.roomType ===
-                      "Family" ? (
+                        "Family" ? (
                         <span className="text-sm ml-2">
                           - 1 King for the parents and 2
                           queens for the children
@@ -409,11 +408,10 @@ const Rooms = () => {
                       room,
                       selectedIndex
                     )}
-                    className={`inline-flex items-center gap-2 font-semibold rounded-full px-4 py-2 text-sm shadow-md transition ${
-                      isInCart(room._id)
+                    className={`inline-flex items-center gap-2 font-semibold rounded-full px-4 py-2 text-sm shadow-md transition ${isInCart(room._id)
                         ? "bg-red-500 hover:bg-red-600"
                         : "bg-emerald-500 hover:bg-emerald-600"
-                    } text-white`}
+                      } text-white`}
                   >
                     {isInCart(room._id) ? (
                       <FaCheckCircle />

@@ -27,7 +27,7 @@ function Navbar() {
   return (
     <div className="w-full shadow-sm z-50 fixed mb-10 top-0">
       {/* Top Info Bar */}
-      <div className="bg-[#E88A1A] text-sm py-2 px-4 flex justify-between items-center lg:px-28 text-black">
+      <div className="bg-[#2E6FA0] text-sm py-2 px-4 flex justify-between items-center lg:px-28 text-black">
         <p>
           {t("Contact us")}:{" "}
           <span className="font-medium pl-1">+255764338937</span>

@@ -23,7 +23,7 @@ const AboutSection = () => {
         <motion.img
           src={parking}
           alt="bnb inside pictures"
-          className="absolute bottom-[-40px] left-[30px] w-1/2 rounded-xl shadow-lg border-4 border-[#be7f2c]"
+          className="absolute bottom-[-40px] left-[30px] w-1/2 rounded-xl shadow-lg border-4 border-[#2E6FA0]"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9 }}
@@ -59,7 +59,7 @@ const AboutSection = () => {
             "Free parking",
           ].map((item, index) => (
             <li key={index} className="flex items-center gap-2">
-              <FaCheckCircle className="text-orange-500" /> {t(item)}
+              <FaCheckCircle className="text-[#2E6FA0]" /> {t(item)}
             </li>
           ))}
         </ul>

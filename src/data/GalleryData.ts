@@ -15,7 +15,6 @@ import bnb4 from "../assets/bnb4.jpeg"
 import entrance from "../assets/entrance.jpeg";
 import entrance2 from "../assets/entrance2.jpeg";
 import light from "../assets/light.jpeg"
-import reception from "../assets/reception.jpeg";
 import tent from "../assets/tent.jpeg";
 import massage from "../assets/massage.jpeg";
 import massage2 from "../assets/massage2.jpeg"
@@ -53,7 +52,7 @@ export const gallery = [
     category: "Reception",
     caption: "Welcoming reception desk right to your service",
     pictures: [
-      reception
+      entrance
     ],
   },
   {
