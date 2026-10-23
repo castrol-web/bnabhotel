@@ -62,7 +62,9 @@ export const rooms = [
       "toiletries",
       "bedside table",
       "sitting room",
-      "mini fridge"
+      "mini fridge",
+      "Bathrobe",
+      "swimming towels"
     ],
     "configurations": [
       {
@@ -147,7 +149,9 @@ export const rooms = [
       "toiletries",
       "bedside table",
       "sitting room",
-      "mini fridge"
+      "mini fridge",
+      "Bathrobe",
+      "swimming towels"
     ],
     "configurations": [
       {
@@ -225,7 +229,9 @@ export const rooms = [
       "AC",
       "Room Service",
       "Smart TV",
-      "mini fridge"
+      "mini fridge",
+      "Bathrobe",
+      "swimming towels"
     ],
     "configurations": [
       {
@@ -429,6 +435,8 @@ export const rooms = [
       "bedside table",
       "sitting room",
       "AC",
+      "Bathrobe",
+      "swimming towels"
     ],
     "configurations": [
       {
@@ -582,7 +590,8 @@ export const rooms = [
       "Cable TV",
       "Towels",
       "Storage",
-      "Bath tab",
+      "Bathrobe",
+      "swimming towels",
       "AC",
     ],
     "configurations": [
@@ -646,7 +655,8 @@ export const rooms = [
       "Cable TV",
       "Towels",
       "Storage",
-      "Bath tab"
+      "Bathrobe",
+      "swimming towels"
     ],
     "configurations": [
       {
